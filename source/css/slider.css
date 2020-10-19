@@ -1,0 +1,135 @@
+.slick-list {
+    overflow: hidden;
+    border-radius: 10px;
+}
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+.catalog__slider .slick-arrow {
+    position: absolute;
+    z-index: 5;
+    top: 47%;
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+}
+.catalog__slider .slick-next {
+    right: 4%;
+    background: url("img/right-arrow.png") 0 0 no-repeat;
+}
+.catalog__slider .slick-prev {
+    left: 4%;
+    background: url("img/left-arrow.svg") 0 0 no-repeat;
+}
+.slick-dots {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 5;
+    bottom: 7%;
+    left: 88px;
+}
+.slick-dots li {
+    list-style: none;
+    margin: 0px 7px;
+}
+.slick-dots button {
+    font-size: 0;
+    width: 25px;
+    height: 5px;
+    background-color: rgba(42, 44, 48, 0.3);
+    border-radius: 7px;
+}
+.slick-dots li.slick-active button {
+    background: #2A2C30;
+}
+.slide__list .slick-arrow {
+    position: absolute;
+    z-index: 6;
+    top: -23px;
+    right: 7px;
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+}
+.slide__list .slick-next {
+    background: url("img/right-arrow.svg") 0 0 no-repeat;
+}
+.slide__list .slick-prev {
+    background: url("img/left-arrow.svg") 0 0 no-repeat;
+    right: 37px;
+}
+.slider-hit__list .slick-arrow {
+    position: absolute;
+    z-index: 6;
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+    top: -51px;
+}
+.slider-hit__list .slick-next {
+    background: url("img/right-arrow.svg") 0 0 no-repeat;
+    right: -5px;
+}
+.slider-hit__list .slick-prev {
+    background: url("img/left-arrow.svg") 0 0 no-repeat;
+    right: 25px;
+}
+.profit-slider__list .slick-arrow {
+    position: absolute;
+    z-index: 6;
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+    top: 30px;
+    right: 0;
+}
+.profit-slider__list .slick-next {
+    background: url("img/right-arrow.svg") 0 0 no-repeat;
+    right: 15px;
+}
+.profit-slider__list .slick-prev {
+    background: url("img/left-arrow.svg") 0 0 no-repeat;
+    right: 45px;
+}
+.big-slide__list .slick-arrow {
+    position: absolute;
+    z-index: 6;
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+    top: 25px;
+    right: 0;
+}
+.big-slide__list .slick-next {
+    background: url("img/right-arrow.svg") 0 0 no-repeat;
+    right: 25px;
+}
+.big-slide__list .slick-prev {
+    background: url("img/left-arrow.svg") 0 0 no-repeat;
+    right: 55px;
+}
+.brands__slider .slick-arrow {
+    position: absolute;
+    z-index: 6;
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+    top: 45%;
+}
+.brands__slider .slick-next {
+    background: url("img/right-arrow.svg") 0 0 no-repeat;
+    right: -30px;
+}
+.brands__slider .slick-prev {
+    background: url("img/left-arrow.svg") 0 0 no-repeat;
+    left: -30px;
+}
+.slick-next:hover {
+    background: url("img/left-arrow-black.svg") 0 0 no-repeat;
+    transform: rotate(180deg);
+}
+.slick-prev:hover {
+    background: url("img/left-arrow-black.svg") 0 0 no-repeat;
+}
